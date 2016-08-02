@@ -110,8 +110,8 @@
       '<textarea class="' + swalClasses.textarea + '"></textarea>' +
       '<div class="' + swalClasses.validationerror + '"></div>' +
       '<hr class="' + swalClasses.spacer + '">' +
-      '<button class="' + swalClasses.confirm + '">OK</button>' +
-      '<button class="' + swalClasses.cancel + '">Cancel</button>' +
+      '<button class="' + swalClasses.confirm + '" id="swal_button_confirm">OK</button>' +
+      '<button class="' + swalClasses.cancel + '" id="button_cancel">Cancel</button>' +
       '<span class="' + swalClasses.close + '">&times;</span>' +
     '</div>';
 
